@@ -219,6 +219,7 @@ included.
         <transport arch="32+64">passthrough</transport>
         <version>1.0</version>
         <interface>
+	<interface>
             <name>IDevice</name>
             <instance>default</instance>
         </interface>
