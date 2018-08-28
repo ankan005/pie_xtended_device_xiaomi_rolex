@@ -116,13 +116,9 @@ on boot
     # Wifi firmware reload path
     chown wifi wifi /sys/module/wlan/parameters/fwpath
 
-    # rolex, Double Tap to Wake nodes
-
-  on property:rolex.dt2w=1
-    write /proc/gesture/onoff 1
-
-  on property:rolex.dt2w=0
-    write /proc/gesture/onoff 0
+    # Idle Time
+    chmod 0664 /sys/devices/virtual/graphics/fb0/idle_time
+    chown system graphics /sys/devices/virtual/graphics/fb0/idle_time
 
 # msm specific files that need to be created on /data
 on post-fs-data
