@@ -33,3 +33,24 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.camera.HAL3.enabled=0 \
     persist.camera.is_type=1 \
     vidc.enc.narrow.searchrange=1
+
+# Camera fixes
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/prebuilds/lib/android.hardware.camera.common@1.0.so:system/lib/android.hardware.camera.common@1.0.so \
+    $(LOCAL_PATH)/prebuilds/lib/android.hardware.camera.device@1.0.so:system/lib/android.hardware.camera.device@1.0.so \
+    $(LOCAL_PATH)/prebuilds/lib/android.hardware.camera.device@3.2.so:system/lib/android.hardware.camera.device@3.2.so \
+    $(LOCAL_PATH)/prebuilds/lib/android.hardware.camera.device@3.3.so:system/lib/android.hardware.camera.device@3.3.so \
+    $(LOCAL_PATH)/prebuilds/lib/android.hardware.camera.device@3.4.so:system/lib/android.hardware.camera.device@3.4.so \
+    $(LOCAL_PATH)/prebuilds/lib/android.hardware.camera.provider@2.4.so:system/lib/android.hardware.camera.provider@2.4.so \
+    $(LOCAL_PATH)/prebuilds/lib/libcamera_client.so:system/lib/libcamera_client.so \
+    $(LOCAL_PATH)/prebuilds/lib/libcamera_metadata.so:system/lib/libcamera_metadata.so \
+    $(LOCAL_PATH)/prebuilds/lib/libcamera2ndk.so:system/lib/libcamera2ndk.so \
+    $(LOCAL_PATH)/prebuilds/lib/libcameraservice.so:system/lib/libcameraservice.so \
+    $(LOCAL_PATH)/prebuilds/lib64/android.hardware.camera.common@1.0.so:system/lib64/android.hardware.camera.common@1.0.so \
+    $(LOCAL_PATH)/prebuilds/lib64/android.hardware.camera.device@1.0.so:system/lib64/android.hardware.camera.device@1.0.so \
+    $(LOCAL_PATH)/prebuilds/lib64/android.hardware.camera.device@3.2.so:system/lib64/android.hardware.camera.device@3.2.so \
+    $(LOCAL_PATH)/prebuilds/lib64/android.hardware.camera.device@3.3.so:system/lib64/android.hardware.camera.device@3.3.so \
+    $(LOCAL_PATH)/prebuilds/lib64/android.hardware.camera.device@3.4.so:system/lib64/android.hardware.camera.device@3.4.so \
+    $(LOCAL_PATH)/prebuilds/lib64/android.hardware.camera.provider@2.4.so:system/lib64/android.hardware.camera.provider@2.4.so \
+    $(LOCAL_PATH)/prebuilds/lib64/libkeystore_binder.so:system/lib64/libkeystore_binder.so \
+    $(LOCAL_PATH)/prebuilds/lib64/libkeystore-engine.so:system/lib64/libkeystore-engine.so
