@@ -14,4 +14,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/carbon_rolex.mk
+    $(LOCAL_DIR)/xtended_rolex.mk
