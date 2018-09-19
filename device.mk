@@ -26,3 +26,6 @@ include $(DEVICE_PATH)/product/*.mk
 
 # Inherit proprietary files
 $(call inherit-product-if-exists, vendor/xiaomi/rolex/rolex-vendor.mk)
+
+PRODUCT_PACKAGES += \
+    GoogleCamera \
