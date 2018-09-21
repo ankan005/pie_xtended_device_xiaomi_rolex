@@ -16,6 +16,9 @@
 
 DEVICE_PATH := $(LOCAL_PATH)
 
+#HWIU
+$(call inherit-product, frameworks/native/build/phone-xxhdpi-3072-hwui-memory.mk)
+
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += \
     $(DEVICE_PATH)/overlay
@@ -29,3 +32,8 @@ $(call inherit-product-if-exists, vendor/xiaomi/rolex/rolex-vendor.mk)
 
 PRODUCT_PACKAGES += \
     GoogleCamera \
+
+# Telephony packages
+#PRODUCT_PACKAGES += \
+    ims-ext-common \
+    telephony-ext
