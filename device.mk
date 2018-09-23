@@ -33,7 +33,6 @@ $(call inherit-product-if-exists, vendor/xiaomi/rolex/rolex-vendor.mk)
 PRODUCT_PACKAGES += \
     GoogleCamera \
 
-# Telephony packages
-#PRODUCT_PACKAGES += \
+# Telephony packages PRODUCT_PACKAGES += \
     ims-ext-common \
     telephony-ext
