@@ -17,7 +17,7 @@
 DEVICE_PATH := $(LOCAL_PATH)
 
 #HWIU
-$(call inherit-product, frameworks/native/build/phone-xxhdpi-3072-hwui-memory.mk)
+#$(call inherit-product, frameworks/native/build/phone-xxhdpi-3072-hwui-memory.mk)
 
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += \
