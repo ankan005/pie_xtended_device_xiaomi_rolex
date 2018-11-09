@@ -9,5 +9,9 @@ rolex.dt2w=1
 debug.hwui.renderer=opengl
 debug.hwui.use_buffer_age=false
 
-ro.xtended.version=FirstBlood
-ro.xtended.display.version=
+# USB debugging at boot
+persist.sys.usb.config=mtp,adb
+ro.adb.secure=0
+ro.secure=0
+ro.debuggable=1
+
