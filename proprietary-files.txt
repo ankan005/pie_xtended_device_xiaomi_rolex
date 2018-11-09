@@ -21,7 +21,7 @@ etc/acdbdata/QRD/msm8940-sku6-snd-card/QRD_SKU6_Hdmi_cal.acdb:vendor/etc/acdbdat
 etc/acdbdata/QRD/msm8940-sku6-snd-card/QRD_SKU6_Headset_cal.acdb:vendor/etc/acdbdata/QRD/msm8940-sku6-snd-card/QRD_SKU6_Headset_cal.acdb
 etc/acdbdata/QRD/msm8940-sku6-snd-card/QRD_SKU6_Speaker_cal.acdb:vendor/etc/acdbdata/QRD/msm8940-sku6-snd-card/QRD_SKU6_Speaker_cal.acdb
 
-# ADSP - from tissot - OPR1.170623.026
+# ADSP - from marmite - OPM5.171019.017 - UOS273C
 vendor/bin/adsprpcd|35b15f3197e193f742cef0c9f51bbfba9f7e27ad
 vendor/lib/libadsprpc.so|903160c2bf36fd3155720048c3ae2ab5e7fea7b4
 vendor/lib/libadsp_default_listener.so|3b56c2d00bef6585b8de11ba5afbec3772456d2d
@@ -32,7 +32,7 @@ vendor/lib64/libadsp_default_listener.so|7ae782755ddc945edb22ae11e964e0118a3b01a
 vendor/lib64/libfastcvadsp_stub.so|3d175f68145aa59aecd8457d608df15a5156897e
 vendor/lib64/libfastcvopt.so|5c0c7331eb2836ed1791cdefaef20cb66df02cb5
 
-# ADSP modules - from tissot - OPR1.170623.026
+# ADSP modules - from marmite - OPM5.171019.017 - UOS273C
 vendor/lib/rfsa/adsp/libapps_mem_heap.so|5c82ad9cfe3f30105d899e2a4e90cc7566f81252
 vendor/lib/rfsa/adsp/libscveBlobDescriptor_skel.so|3e9c52069ff07e50191d3b3afb33b30409241ab6
 vendor/lib/rfsa/adsp/libscveT2T_skel.so|91b9200dbb982abf0d6b440668252d892a616f66
@@ -47,7 +47,7 @@ vendor/lib/rfsa/adsp/libFastRPC_UTF_Forward_Qtc2_skel.so|b9f68e320d24e9c51871a20
 vendor/lib/libhwdaphal.so
 vendor/lib64/libhwdaphal.so
 
-# Audio libraries - from tissot - OPR1.170623.026
+# Audio libraries - from marmite - OPM5.171019.017 - UOS273C
 etc/permissions/audiosphere.xml|3c6d8f14bd99e52a424282fd5d0a5b9b06485dea
 framework/audiosphere.jar|e12a3ee72672b82dffc9a5675d0c30ddf0328807
 vendor/lib/libacdb-fts.so|432041db714bfaafb4dd12ff5dadf832fe322785
@@ -1949,7 +1949,7 @@ etc/firmware/cpp_firmware_v1_8_0.fw:vendor/firmware/cpp_firmware_v1_8_0.fw|26e2b
 etc/firmware/cpp_firmware_v1_10_0.fw:vendor/firmware/cpp_firmware_v1_10_0.fw|cf9458601aa4bbe9c57acfc1c7d0f158386ace9f
 etc/firmware/cpp_firmware_v1_12_0.fw:vendor/firmware/cpp_firmware_v1_12_0.fw|de18ccdf371824059acfdf3c7754c6e1bc1c2f8c
 
-# Charger
+# # Charger - from marmite - OPM5.171019.017 - UOS273C
 bin/hvdcp_opti:vendor/bin/hvdcp_opti
 
 # CNE - from tissot - OPR1.170623.026
@@ -2012,7 +2012,7 @@ vendor/lib64/hw/consumerir.default.so|f7c90fd1d6a0c5e6cf620aa23a862e780feaaf6c
 -etc/qdcm_calib_data_ili9881c_HD720p_video_Ebbg_c3a.xml
 -etc/qdcm_calib_data_nt35521s_HD720p_video_EBBG_c3a.xml
 
-# DPM - from TA-1000 - OPR1.170623.026
+# DPM - from marmite - OPM5.171019.017 - UOS273C
 vendor/bin/dpmQmiMgr|2d2c8f1bc822874ae1c335315110756521d0c5da
 vendor/lib64/com.qualcomm.qti.dpm.api@1.0_vendor.so|0f23520fc925b8a5bb4cebc73c544cb2d012ce7e
 vendor/lib64/libdpmqmihal.so|25bcb5d6853ccbf30fbe38230f9442049688c49a
@@ -2233,7 +2233,7 @@ vendor/lib64/libOmxVpp.so|4226eede573b386636a633f0e4096e86f7168113
 vendor/lib64/libOmxWmaDec.so|72545c1f4e6e0fe598f8f88f3f1de66406b4ab9a
 vendor/lib64/libvpplibrary.so|4594cd1d37f7c6ea6c3bd85a935273cb2820d450
 
-# Modem - from tissot - OPR1.170623.026
+# Modem - from marmite - OPM5.171019.017 - UOS273C
 vendor/lib/libwms.so|7df491e58c43b1274e9e7ef540aa6d2b3c1dd0d0
 vendor/lib64/libwms.so|2a629122412cf6157945a629a8bb5d63292bf4df
 
@@ -2450,18 +2450,18 @@ vendor/lib64/libsensor_reg.so|deeb52abed2945fbf01c3e3de9e2028100c934a9
 vendor/lib64/libsensor_user_cal.so|2333a3bfd440f51e6d38ddc573ddea5c15fe0fef
 vendor/lib64/sensors.ssc.so|dad2b62499253748a1685718718ecc02f358ac34
 
-# Thermal - from TA-1000 - OPR1.170623.026
+# Thermal - from marmite - OPM5.171019.017 - UOS273C
 vendor/bin/thermal-engine|e8adca1cf42c7328e03050b8776ba87a183b5dce
 vendor/lib/libthermalclient.so|6096637d37150d89caf3c730c9964ac07797fa55
 vendor/lib64/libthermalclient.so|9beae9671d80ee9b1d47689ed32b5780a863cb77
 vendor/lib64/libthermalioctl.so|ca2dca5f433073df781073f449fd7ed73a4e4d3c
 
-# Time services - from bardock-pro - OPM1.171019.011
+# Time services - from marmite - OPM5.171019.017 - UOS273C
 -vendor/app/TimeService/TimeService.apk|5055619766db32fe499cda86b892c9f3081219c5
 vendor/bin/time_daemon|8ea7d65a65c1d50afc6553ad52848b454c62563d
 -vendor/lib64/libtime_genoff.so|7683a85cae9f17cd535e8960fceda1d6831074a0
 
-# TUI - from vivo 1724 - OPM1.171019.011
+# TUI - from marmite - OPM5.171019.017 - UOS273C
 lib/vendor.qti.hardware.tui_comm@1.0.so|b5460afc3e3c6b0f39dfdef6b49a39f537ffa89a
 lib64/vendor.qti.hardware.tui_comm@1.0.so|c627988a2f7a9e05cb5e573e0b70551aa300995f
 vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti|86da521db0433035667beb1ab50c0448e9e6d4e2
@@ -2469,7 +2469,7 @@ vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc|2cfc563d7e157937
 vendor/lib/vendor.qti.hardware.tui_comm@1.0_vendor.so|67007d86dc6d7bb00b069b07351054250a09fc63
 vendor/lib64/vendor.qti.hardware.tui_comm@1.0_vendor.so|cd312ae34506ce67444518b676d1568a12eb80bd
 
-# Widevine DRM - from marlin - OPM1.171019.011
+# Widevine DRM - from marmite - OPM5.171019.017 - UOS273C
 vendor/bin/hw/android.hardware.drm@1.0-service.widevine|62dbed3b465a6abe33d03dd66cf89f3227766850
 vendor/etc/init/android.hardware.drm@1.0-service.widevine.rc|51a3168a0dbc064d78ee11ca83614c0cd2e6daa5
 vendor/lib/libwvhidl.so|88ebba6280bd85e5bfea18efe2f685b0e1fb6f50
