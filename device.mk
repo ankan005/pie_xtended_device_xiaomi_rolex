@@ -39,8 +39,3 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_BOOT_JARS += \
     telephony-ext
-
-PRODUCT_COPY_FILES += \
-$(LOCAL_PATH)/prebuilts/lib/libts_detected_face_jni.so:system/lib64/libts_detected_face_jni.so \
-$(LOCAL_PATH)/prebuilts/lib/libts_face_beautify_hal.so:system/lib64/libts_face_beautify_hal.so \
-$(LOCAL_PATH)/prebuilts/lib/libts_face_beautify_jni.so:system/lib64/libts_face_beautify_jni.so  \
