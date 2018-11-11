@@ -2038,6 +2038,14 @@ vendor/lib64/libssd.so|525090a06be89db33b2b1b3295bf708cb1b1245b
 vendor/lib64/libStDrvInt.so|4b6f5b1138fe7b731fa23b20a31f7a223f1136b8
 vendor/lib64/libtzdrmgenprov.so|5ba848535a7191ee8e679b4fbbd556411b1916ef
 
+# FM - from riva - 8.11.6 (OPM1.171019.026)
+-lib/vendor.qti.hardware.fm@1.0.so|211644da5d9a3a307b2f98b9c4df2a9ee9a43f1d
+-lib64/vendor.qti.hardware.fm@1.0.so|26d6c69bfd3b63b3d0e120723e7c22091c8e6495
+vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so|a4bb1ab7e6a318460c85771ffe2213f86cd89777
+vendor/lib/vendor.qti.hardware.fm@1.0_vendor.so|64fbfc8c8db238ca31693772716fa49927597a3f
+vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so|668690f2ca374156d6dee245577611f0e8d80ed4
+vendor/lib64/vendor.qti.hardware.fm@1.0_vendor.so|77d3495110ed1cdaad5ac8b96a2720fad11e5d18
+
 # Gatekeeper - from TA-1000 - OPR1.170623.026
 vendor/lib/hw/gatekeeper.msm8937.so|727158ab391d96d078bc0d67dbd315c512a4dc2e
 vendor/lib64/hw/gatekeeper.msm8937.so|b2507be6b3e182f6da1c5af3eaf9be8330cb3f2b
