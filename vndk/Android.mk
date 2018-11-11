@@ -26,9 +26,9 @@ VNDK_SP_LIBRARIES := \
     libpng \
     libunwind \
     libutils \
-    libz
+    libz \
     libartbase \
-    libziparchive
+    libziparchive \
 
 EXTRA_VENDOR_LIBRARIES := \
     android.hidl.base@1.0 \
