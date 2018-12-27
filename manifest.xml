@@ -1,7 +1,6 @@
 <!--
     This is a skeleton device manifest. Notes:
-    1. android.hidl.*, android.frameworks.*, android.system.* are not 
-included.
+    1. android.hidl.*, android.frameworks.*, android.system.* are not included.
     2. If a HAL is supported in both hwbinder and passthrough transport,
        only hwbinder is shown.
     3. It is likely that HALs in passthrough transport does not have
@@ -219,7 +218,6 @@ included.
         <transport arch="32+64">passthrough</transport>
         <version>1.0</version>
         <interface>
-	<interface>
             <name>IDevice</name>
             <instance>default</instance>
         </interface>
