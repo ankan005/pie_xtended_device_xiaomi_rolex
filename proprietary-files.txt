@@ -2153,15 +2153,12 @@ vendor/lib64/libhdr_tm.so|3c00bd6b7c4517c57f304f4efb8bde74f8c04450
 # Graphics (SDM) - from vivo 1724 - OPM1.171019.011
 -vendor/lib/libsdm-disp-vndapis.so|41d866c7f7297b02a7d63bf499fa7ea21f422eca
 -vendor/lib64/libsdm-disp-vndapis.so|51e2bc8715992e4b1edc9b6da00d7736ea81e449
-lib/libsdm-disp-apis.so|05d257299d06e1d3f04bb51c7034247c661c3743
-lib64/libsdm-disp-apis.so|e6f829012ebe08d99219ee312c9dff0255185857
-vendor/lib/libsc-a3xx.so|9429d7819af8f4b67d6b4a9babc770619dc626ab
-vendor/lib/libscalar.so|af7161c0a4a941eb133f82fffde21d5ed79e1b2d
+vendor/lib/libqseed3.so
 vendor/lib/libsdm-color.so|97293223d9e0cc7387515a5090022d177d3821de
 vendor/lib/libsdm-diag.so|c33bdf9a0a4aa9f0385f3d6772b37fd9034fa169
 vendor/lib/libsdmextension.so|584e6cba5be049e3466fa51aab9b2921f889d939
 vendor/lib/libtinyxml2_1.so|75c2e17a4677bcb21d1ac1ed411b92820fdfa299
-vendor/lib64/libsc-a3xx.so|fc7c257cdcac957917babd69a0c042f2c58825a5
+vendor/lib64/libqseed3.so
 vendor/lib64/libscalar.so|778da7ece21c97b79e8486754f60e1cf7ebe11db
 vendor/lib64/libsdm-color.so|f6b415575c02a049362abcebf0ba5bc0b650cd2b
 vendor/lib64/libsdm-diag.so|b0578da9de5482f00201615a566e406de867865f
