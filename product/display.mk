@@ -50,9 +50,10 @@ PRODUCT_COPY_FILES += \
 # Display
 PRODUCT_PROPERTY_OVERRIDES += \
     debug.egl.hw=0 \
-    vendor.gralloc.disable_wb_ubwc=1 \
+    debug.enable.sglscale=1 \
+    debug.mdpcomp.logs=0 \
+    debug.sdm.support_writeback=0 \
     debug.sf.hw=0 \
-    debug.sf.disable_hwc_vds=1 \
     debug.sf.latch_unsignaled=1 \
     debug.sf.recomputecrop=0 \
     dev.pm.dyn_samplingrate=1 \
