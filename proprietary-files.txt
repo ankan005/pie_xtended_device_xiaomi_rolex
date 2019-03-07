@@ -43,7 +43,10 @@ vendor/lib/rfsa/adsp/libfastcvadsp_skel.so|1ff4a48009e88435d93fd2b9b0c5ea59cedbb
 vendor/lib/rfsa/adsp/libFastRPC_AUE_Forward_skel.so|f4d8675a46c5e52add8f8e90e35b29cd33ac582b
 vendor/lib/rfsa/adsp/libFastRPC_UTF_Forward_Qtc2_skel.so|b9f68e320d24e9c51871a2056e1f47239bd1cb40
 
-# Audio Dolby libraries
+# Audio dirac - from MIUI Global Stable - V10.2.1.0.NCCMIXM
+vendor/etc/diracmobile.config
+vendor/lib/soundfx/libdirac.so
+vendor/lib/libDiracAPI_SHARED.so
 vendor/lib/libhwdaphal.so
 vendor/lib64/libhwdaphal.so
 
