@@ -72,8 +72,22 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.audio.dolby.ds2.enabled=true \
     vendor.audio.dolby.ds2.hardbypass=true \
     vendor.audio.offload.multiaac.enable=true \
+    vendor.audio.hw.aac.encoder=true \
     vendor.audio.flac.sw.decoder.24bit=true \
     vendor.voice.playback.conc.disabled=true \
     vendor.voice.record.conc.disabled=false \
     vendor.voice.voip.conc.disabled=true \
-    vendor.voice.conc.fallbackpath=deep-buffer
+    vendor.voice.conc.fallbackpath=deep-buffer \
+    hpx_send_params=1 \
+    persist.audio.dirac.speaker=true \
+    persist.dirac.acs.controller=afm \
+    persist.dirac.afm.mode=global \
+    persist.dirac.acs.storeSettings=1 \
+    persist.dirac.poolsize=2 \
+    persist.dirac.acs.startAtBoot=1 \
+    ro.audio.soundfx.dirac=true
+
+
+
+
+
